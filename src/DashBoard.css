@@ -1,0 +1,145 @@
+.SelecteDropDownOptions {
+  margin: 15px 20px;
+}
+
+.data-card {
+  display: flex;
+  justify-content: space-around;
+  /* Center the cards and provide some space */
+  flex-wrap: wrap;
+  /* Allow cards to wrap to the next line on smaller screens */
+}
+
+.card {
+  flex: 1;
+  margin: 10px;
+  border: 1px solid #ddd;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  border-radius: 8px;
+  transition: transform 0.3s ease-in-out;
+  /* Add a smooth transition */
+}
+
+.card:hover {
+  transform: scale(1.05);
+  /* Enlarge the card on hover */
+}
+
+.ipo-card {
+  background-color: #deb9ae;
+  /* Light orange background for IPO cards */
+  padding: 20px;
+  color: #333;
+  /* Dark text color for better contrast */
+}
+
+.currency-card {
+  background-color: #80deea;
+  /* Light blue background for Currency cards */
+  padding: 20px;
+  color: #333;
+  /* Dark text color for better contrast */
+}
+
+.error-message {
+  color: #ff6961;
+  /* Red color for error messages */
+  margin-top: 10px;
+}
+
+.SelecteDropDownOptions {
+  margin: 15px 20px;
+}
+
+.data-card {
+  display: flex;
+  justify-content: space-around;
+  /* Center the cards and provide some space */
+  flex-wrap: wrap;
+  /* Allow cards to wrap to the next line on smaller screens */
+}
+
+.error-message {
+  color: #ff6961;
+  /* Red color for error messages */
+  margin-top: 10px;
+}
+
+/* IPO Table Styles */
+.ipo-table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.ipo-table th,
+.ipo-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.ipo-table thead {
+  background-color: #f5f5f5;
+}
+
+.ipo-table tbody tr:hover {
+  background-color: #f0f8ff;
+}
+
+/* Adjust styles for smaller screens */
+@media (max-width: 600px) {
+  .ipo-table {
+    overflow-x: auto;
+    display: block;
+  }
+
+  .ipo-table th,
+  .ipo-table td {
+    white-space: nowrap;
+  }
+}
+
+/* ... (previous styles) */
+
+/* IPO Table Styles */
+.ipo-table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+  border-spacing: 0;
+  font-size: 14px;
+  /* Adjust the font size as needed */
+}
+
+.ipo-table th,
+.ipo-table td {
+  padding: 10px;
+  /* Adjust padding for better spacing */
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.ipo-table thead {
+  background-color: #f5f5f5;
+}
+
+.ipo-table tbody tr:hover {
+  background-color: #f0f8ff;
+}
+
+/* Adjust styles for smaller screens */
+@media (max-width: 600px) {
+  .ipo-table {
+    overflow-x: auto;
+    display: block;
+  }
+
+  .ipo-table th,
+  .ipo-table td {
+    white-space: nowrap;
+  }
+}

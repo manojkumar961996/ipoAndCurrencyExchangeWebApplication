@@ -1,0 +1,32 @@
+/* Improve spacing and add a slight shadow to the nav items */
+.nav-item {
+    margin-right: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Add padding and border-radius to create a card-like effect */
+.loginPage {
+    margin-left: 20px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Use a gradient background for a more attractive button */
+.signUpPage {
+    border: none;
+    background: linear-gradient(to right, #3498db, #8e44ad);
+    color: #fff;
+    border-radius: 4px;
+    padding: 10px 15px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+/* Add a subtle shadow to the stock image */
+.stock-image {
+    height: 43px;
+    width: 50px;
+    border-radius: 12rem;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
